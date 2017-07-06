@@ -1,0 +1,24 @@
+安装完成后 在命令行输入：
+$ git config --global user.name "Your Name"
+$ git config --global user.email "email@example.com"
+
+创建版本库 
+
+1.创建版本库目录
+$ mkdir learngit
+$ cd learngit
+$ pwd
+/Users/michael/learngit
+
+2初始化命令把目录变成git可以管理的仓库
+$ git init
+
+文件添加都版本库
+1. $ git add 文件名称及后缀  注意git语法全是小写，文件名称不区分大小写
+
+2. $ git commit -m "提交备注"
+ps：add  可多次add 文件  一次性  将多个文件 commit
+例如：
+$ git add file1.txt
+$ git add file2.txt file3.txt
+$ git commit -m "add 3 files."
